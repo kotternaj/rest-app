@@ -21,3 +21,7 @@
     background-color: rgba(156, 69, 156, 0.945);
     color: #fff;
 }
+
+.navbar-inverse{
+    background-color: #512da8;
+}
