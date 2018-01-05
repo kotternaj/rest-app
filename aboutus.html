@@ -52,9 +52,11 @@
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item active">About Us</li>
             </ol>
-            <div class="col-12">
-               <h3 class="aboutus">About Us</h3>
-               <hr>
+            <div class="container">
+                <div>
+                    <h3>About Us</h3>
+                    <hr>
+                </div>
             </div>
         </div>
         
@@ -96,30 +98,24 @@
 
         <div>
             <div class="row row-content">
-                <div class="col">
+                <div class="col-sm-12">
                     <h2>Corporate Leadership</h2>
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#peter"
-                                role="tab" data-toggle="tab">Peter Pan, CEO</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#danny"
-                                role="tab" data-toggle="tab">Danny Witherspoon, CFO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#agumbe"
-                                role="tab" data-toggle="tab">Agumbe Tang, CTO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#alberto"
-                                role="tab" data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade show active" id="peter">
-                            <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                            <p class="hidden-xs-down">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                    
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card header" role="tab" id="peterhead">
+                                <h3 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion" href="peter">
+                                        Peter Pan <small>Chief Epicurious Officer</small></a>
+                                </h3>
+                            </div>
+                        <div role="tabpanel" class="collapse show" id="peter">
+                            <div class="card-block">
+                                <p class="hidden-xs-down">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the 
+                                    tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural 
+                                    culinary connections.</p>
+                            </div>
+                        </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="danny">
                             <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
